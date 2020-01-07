@@ -17,10 +17,6 @@ def caclulate_area_of_polygon(n):
     # the polygon.
     inner_angle = 360 / n
 
-    # Calculate the angle of the triangles' vertices on the perimeter
-    # of the polygon.
-    outer_angle = (180 - inner_angle) / 2
-
     # Calculate the area of the triangle.
     # NOTE: each triangle is isosceles, and may be split into two
     #       equivalent right triangles. This is useful for calculating
